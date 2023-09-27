@@ -1,0 +1,33 @@
+/* Style for the accordion */
+.accordion {
+    display: none;
+}
+
+/* Style for the buttons that open the accordion */
+.accordion-label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 100%;
+}
+
+/* Style for the content inside the accordion */
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Style for the links inside the content */
+.accordion-content a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+/* Add some style to the active accordion */
+.active-accordion {
+    display: block;
+}
