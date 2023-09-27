@@ -8,45 +8,81 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-	<div class="accordion">
-		<div class="year-level">
-			<button class="accordion-button">Year Level</button>
-			<div class="sub-accordion">
-				<div class="sub-item">
-					<button class="accordion-button">ICT - S3</button>
-					<div class="sub-accordion">
-						<div class="sub-item">
-							<button class="accordion-button">Unit 1</button>
-							<div class="lesson-accordion">
-								<!-- Lesson 1 -->
-								<div class="lesson-item">
-									<button class="accordion-button">Lesson 1</button>
-									<ul class="links">
-										<li><a href="#">Link 1</a></li>
-										<li><a href="#">Link 2</a></li>
-										<li><a href="#">Link 3</a></li>
-										<li><a href="#">Link 4</a></li>
-										<li><a href="#">Link 5</a></li>
-									</ul>
-								</div>
-                                				<!-- Lesson 2 -->
-                                				<div class="lesson-item">
-                                    					<button class="accordion-button">Lesson 2</button>
-                                    					<ul class="links">
-                                      						<li><a href="#">Link 1</a></li>
-                                        					<li><a href="#">Link 2</a></li	
-                                        					<li><a href="#">Link 3</a></li>
-                                        					<li><a href="#">Link 4</a></li>
-                                        					<li><a href="#">Link 5</a></li>
-                                    					</ul>
-                                				</div>
-                            				</div>
-                        			</div>	
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="script.js"></script>
+<div class="accordion" id="yearLevel">
+        <button class="accordion-btn">Year Level</button>
+        <div class="accordion-content">
+            <div class="accordion" id="s3">
+                <button class="accordion-btn">S3</button>
+                <div class="accordion-content">
+                    <div class="accordion" id="unit1">
+                        <button class="accordion-btn">Unit 1</button>
+                        <div class="accordion-content">
+                            <div class="accordion" id="lesson1">
+                                <button class="accordion-btn">Lesson 1</button>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 4</a></li>
+                                        <li><a href="#">Link 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion" id="lesson2">
+                                <button class="accordion-btn">Lesson 2</button>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 4</a></li>
+                                        <li><a href="#">Link 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="unit2">
+                        <button class="accordion-btn">Unit 2</button>
+                        <div class="accordion-content">
+                            <div class="accordion" id="lesson1">
+                                <button class="accordion-btn">Lesson 1</button>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 4</a></li>
+                                        <li><a href="#">Link 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion" id="lesson2">
+                                <button class="accordion-btn">Lesson 2</button>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 4</a></li>
+                                        <li><a href="#">Link 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="s4">
+                <button class="accordion-btn">S4</button>
+                <div class="accordion-content">
+                    <!-- Add S4 content here -->
+                </div>
+            </div>
+        </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
 
