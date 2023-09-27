@@ -7,3 +7,16 @@ function toggleAccordion(id) {
     icon.classList.toggle('fa-caret-down');
     icon.classlist.toggle('fa-caret-up');
 }
+
+
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".accordion-button");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const subAccordion = button.nextElementSibling;
+            subAccordion.style.display = subAccordion.style.display === "block" ? "none" : "block";
+        });
+    });
+});
