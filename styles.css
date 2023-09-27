@@ -1,16 +1,35 @@
+/* Rest some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Poppins;
+}
+
 /* Style for the accordion */
 .accordion {
     display: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
 }
 
 /* Style for the buttons that open the accordion */
 .accordion-label {
     cursor: pointer;
     padding: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ddd;
+    background-color: #3498db;
+    color: #fff;
     text-align: left;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Style for the content inside the accordion */
@@ -27,6 +46,22 @@
     display: block;
     margin-top: 5px;
     text-decoration: none;
+    color: #333;
+}
+
+/* Add hover effect on accordion labels */
+.accordion-label:hover {
+    background-color: #2980b9;
+}
+
+/* Add icon rotation on accordion open */
+.accordion-label i {
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the icon when the accordion is open */
+.active-accordion .accordion-label i {
+    transform: rotate(180deg);
 }
 
 /* Add some style to the active accordion */
