@@ -10,13 +10,35 @@ body {
 }
 
 /* Style for the accordion */
-.accordion {
+.main-accordion {
     display: none;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     margin: 10px 0;
     border-radius: 4px;
+}
+
+.sub-accordion {
+    display: flex;
+    flex-direction: column;
+    background-color: #5dade2;
+    color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.sub-sub-accordion {
+    display: flex;
+    flex-direction: column;
+    background-color: #85c1e9;
+    color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 /* Style for the buttons that open the accordion */
