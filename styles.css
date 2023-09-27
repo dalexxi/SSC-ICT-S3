@@ -18,6 +18,8 @@
     display: none;
     padding: 10px;
     border-top: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
 }
 
 /* Style for the links inside the content */
