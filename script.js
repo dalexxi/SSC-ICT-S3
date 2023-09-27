@@ -8,8 +8,4 @@ accordionButtons.forEach(button => {
         const content = button.nextElementSibling;
         content.classList.toggle('active');
     });
-
-    // Hide accordion content by default
-    const content = button.nextElementSibling;
-    content.style.display = 'none'; // This line was added to hide content by default
 });
