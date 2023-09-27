@@ -6,4 +6,7 @@ accordionButtons.forEach(button => {
         const content = button.nextElementSibling;
         content.classList.toggle('active');
     });
+
+    const content = button.nextElementSibling;
+    content.style.display = 'none';
 });
