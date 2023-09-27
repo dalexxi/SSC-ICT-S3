@@ -90,3 +90,54 @@ body {
 .active-accordion {
     display: block;
 }
+
+/*------------------------------------------------------------*/
+/* styles.css */
+.accordion {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: #f5f5f5;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.accordion-button:hover {
+    background-color: #e0e0e0;
+}
+
+/*.sub-accordion {
+    display: none;
+    padding-left: 10px;
+}*/
+
+.sub-item {
+    margin-bottom: 5px;
+}
+
+.lesson-accordion {
+    display: none;
+    padding-left: 10px;
+}
+
+.lesson-item {
+    margin-bottom: 5px;
+}
+
+.links {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.links li {
+    margin-bottom: 5px;
+}
